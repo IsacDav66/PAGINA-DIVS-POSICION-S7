@@ -1,0 +1,68 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#principal{
+    width: 960px;
+    height: 640px;
+    background-color: darkcyan;
+    background-image:cross-fade(3px);
+    padding: 10px;
+    border-style:solid;
+    border-radius: 5%;
+    border-color: rgba(255, 255, 255, 0.699);
+    margin-top:6% ;
+    margin-left: 25%;
+    box-shadow: 0px 0px 20px rgb(12, 177, 75) ;
+}
+
+#izquierda{
+    width: 500px;
+    height: 480px;
+    background-color: darkslategray;
+    float: left;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255) ;
+    color: aliceblue;  
+    border-radius: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255) ;
+    
+  
+}
+/*#derecha{
+    width: 960px;
+    height: 160px;
+    background-color: rgb(74, 102, 102);
+}*/
+
+#derecha{
+    width: 460px;
+    height: 480px;
+    background-color: rgb(74, 102, 102);
+    float: right;
+    border-radius: 5%;
+    display: flex;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255) ;
+
+}
+p{
+    text-align: center;
+    text-align: justify;
+    padding: 5%;
+    margin-top: 20%;
+}
+
+img{
+    border-radius: 5%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+body{
+    background-image: url(https://c.wallhere.com/photos/ad/16/1920x1080_px_All_art_digital_forest_landscape_nature_pixel-1555193.jpg!d);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover ;
+}
