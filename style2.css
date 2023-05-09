@@ -15,6 +15,8 @@
   margin-top: 6%;
   margin-left: 25%;
   box-shadow: 0px 0px 20px rgb(12, 177, 75);
+  animation: colors 2s linear 0s;
+  animation-iteration-count: infinite;
 }
 
 #izquierda {
@@ -62,4 +64,13 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+@keyframes colors {
+ 0%   {background-color: rgba(19, 99, 62, 0.250);}
+  25%  {background-color: rgba(19, 99, 62, 0.500);}
+  50%  {background-color: rgba(19, 99, 62, 0.750);}
+  75%  {background-color: rgba(19, 99, 62, 0.500);; }
+  100% {background-color: rgba(19, 99, 62, 0.250);}
+
 }
