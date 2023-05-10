@@ -31,6 +31,7 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   box-shadow: 0px 0px 20px rgb(255, 255, 255);
 }
+
 /*#derecha{
     width: 960px;
     height: 160px;
@@ -47,6 +48,7 @@
   box-shadow: 0px 0px 20px rgb(255, 255, 255);
   background: linear-gradient(to bottom, #3366cc 0%, #003300 100%);
 }
+
 p {
   text-align: center;
   text-align: justify;
@@ -60,20 +62,38 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
 body {
- /* background-image: url(https://c.wallhere.com/photos/ad/16/1920x1080_px_All_art_digital_forest_landscape_nature_pixel-1555193.jpg!d);*/
+  background-image: url(https://c.wallhere.com/photos/ad/16/1920x1080_px_All_art_digital_forest_landscape_nature_pixel-1555193.jpg!d);
+  background-image: url(https://th.bing.com/th/id/R.1e1ebcb74f633c0e1b0211d00660bfad?rik=U%2fhqn0cUtC4Shg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fb%2f6%2f5%2f373703.jpg&ehk=B7aPIQoZ%2b6v0fpGGKY4kWJZVJ7%2f%2b7SP0NSkbI4xq0Yg%3d&risl=&pid=ImgRaw&r=0);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-color: #000;
+  
 }
 
 @keyframes colors {
- 0%   {background-color: rgba(19, 99, 62, 0.250);}
-  25%  {background-color: rgba(19, 99, 62, 0.500);}
-  50%  {background-color: rgba(19, 99, 62, 0.750);}
-  75%  {background-color: rgba(19, 99, 62, 0.500);; }
-  100% {background-color: rgba(19, 99, 62, 0.250);}
+  0% {
+    background-color: rgba(19, 99, 62, 0.250);
+  }
+
+  25% {
+    background-color: rgba(19, 99, 62, 0.500);
+  }
+
+  50% {
+    background-color: rgba(19, 99, 62, 0.750);
+  }
+
+  75% {
+    background-color: rgba(19, 99, 62, 0.500);
+    ;
+  }
+
+  100% {
+    background-color: rgba(19, 99, 62, 0.250);
+  }
 
 }
 
@@ -109,7 +129,7 @@ body {
 .container {
   position: relative;
   width: 300px;
-  height: 200px;
+  height: 230px;
   background-color: #000;
   border-radius: 5%;
   margin-left: auto;
@@ -123,15 +143,15 @@ body {
   right: -10px;
   bottom: -10px;
   z-index: -1;
-  background-color: #00ff00;
+  background-color: #9900ff;
   box-shadow:
-    0 0 10px #00ff00,
-    0 0 20px #00ff00,
-    0 0 30px #00ff00,
-    0 0 40px #00ff00,
-    0 0 70px #00ff00,
-    0 0 80px #00ff00,
-    0 0 100px #00ff00;
+    0 0 10px #9900ff,
+    0 0 20px #9900ff,
+    0 0 30px #9900ff,
+    0 0 40px #9900ff,
+    0 0 70px #9900ff,
+    0 0 80px #9900ff,
+    0 0 100px #9900ff;
   border-radius: 10px;
   animation: neon 2s ease-in-out infinite;
 }
@@ -139,33 +159,35 @@ body {
 @keyframes neon {
   0% {
     box-shadow:
-      0 0 10px #00ff00,
-       0 0 20px #00ff00,
-       0 0 30px #00ff00,
-       0 0 40px #00ff00,
-       0 0 70px #00ff00,
-       0 0 80px #00ff00,
-       0 0 100px #00ff00;
+      0 0 10px #9900ff,
+      0 0 20px #9900ff,
+      0 0 30px #9900ff,
+      0 0 40px #9900ff,
+      0 0 70px #9900ff,
+      0 0 80px #9900ff,
+      0 0 100px #9900ff;
   }
+
   100% {
     box-shadow:
-      0 0 20px #00f000,
-       0 0 30px #00ff00,
-       0 0 40px #00ff00,
-       0 0 70px #00ff00,
-       0 0 80px #00ff00,
-       0 0 100px #00ff00,
-       0 0 450px #00ff00;
+      0 0 20px #9900ff,
+      0 0 30px #9900ff,
+      0 0 40px #9900ff,
+      0 0 70px #9900ff,
+      0 0 80px #9900ff,
+      0 0 100px #9900ff,
+      0 0 450px #9900ff;
   }
+
   50% {
     box-shadow:
-      0 0 15px #00f000,
-       0 0 25px #00ff00,
-       0 0 35px #00ff00,
-       0 0 65px #00ff00,
-       0 0 75px #00ff00,
-       0 0 95px #00ff00,
-       0 0 400px #00ff00;
+      0 0 15px #9900ff,
+      0 0 25px #9900ff,
+      0 0 35px #9900ff,
+      0 0 65px #9900ff,
+      0 0 75px #9900ff,
+      0 0 95px #9900ff,
+      0 0 400px #9900ff;
   }
 }
 
@@ -189,62 +211,67 @@ body {
   bottom: -5px;
   z-index: -1;
   background-color: #fdfdfd;
-  box-shadow: 
-  5px 5px 10px #ffd000,
-  10px 10px 20px #f09000,
-  15px 15px 100px #923c26;
+  box-shadow:
+    5px 5px 10px #ffd000,
+    10px 10px 20px #f09000,
+    15px 15px 100px #923c26;
   border-radius: 10px;
   animation: neon2 2s;
   animation-iteration-count: infinite;
 
 }
-.neonprueba:hover{
-  box-shadow:  
-  5px 5px 10px #0066ff,
-  10px 10px 20px #0033cc,
-  15px 15px 100px #000080;
+
+.neonprueba:hover {
+  box-shadow:
+    5px 5px 10px #0066ff,
+    10px 10px 20px #0033cc,
+    15px 15px 100px #000080;
   background-color: #000080;
 }
 
-@keyframes neon2{
+@keyframes neon2 {
   0% {
-    box-shadow: 
-    5px 5px 20px #ffd000,
-    10px 10px 30px #f09000,
-    15px 15px 110px #923c26;
+    box-shadow:
+      5px 5px 20px #ffd000,
+      10px 10px 30px #f09000,
+      15px 15px 110px #923c26;
     ;
   }
-  25%{
-    box-shadow: 
-    5px 5px 30px #ffd000,
-    10px 10px 40px #f09000,
-    15px 15px 120px #923c26;
+
+  25% {
+    box-shadow:
+      5px 5px 30px #ffd000,
+      10px 10px 40px #f09000,
+      15px 15px 120px #923c26;
     ;
   }
-  50%{
-    box-shadow: 
-    5px 5px 40px #ffd000,
-    10px 10px 50px #f09000,
-    15px 15px 130px #923c26;
+
+  50% {
+    box-shadow:
+      5px 5px 40px #ffd000,
+      10px 10px 50px #f09000,
+      15px 15px 130px #923c26;
     ;
   }
-  75%{
-    box-shadow: 
-    5px 5px 30px #ffd000,
-    10px 10px 40px #f09000,
-    15px 15px 120px #923c26;
+
+  75% {
+    box-shadow:
+      5px 5px 30px #ffd000,
+      10px 10px 40px #f09000,
+      15px 15px 120px #923c26;
     ;
   }
-  100%{
-    box-shadow: 
-    5px 5px 20px #ffd000,
-    10px 10px 30px #f09000,
-    15px 15px 110px #923c26;
+
+  100% {
+    box-shadow:
+      5px 5px 20px #ffd000,
+      10px 10px 30px #f09000,
+      15px 15px 110px #923c26;
     ;
   }
 }
 
-.hoversha{
+.hoversha {
   position: relative;
   width: 300px;
   height: 200px;
@@ -255,13 +282,13 @@ body {
   background-color: #0033cc;
 }
 
-.hoversha:hover{
+.hoversha:hover {
   background-color: #923c26;
   animation: neon2 2s;
   animation-iteration-count: infinite;
 }
 
-.dentro{
+.dentro {
   position: absolute;
   top: -5px;
   left: -5px;
@@ -269,20 +296,20 @@ body {
   bottom: -5px;
   z-index: -1;
   background-color: #fdfdfd;
-  box-shadow: 
-  5px 5px 10px #ffd000,
-  10px 10px 20px #f09000,
-  15px 15px 100px #923c26;
+  box-shadow:
+    5px 5px 10px #ffd000,
+    10px 10px 20px #f09000,
+    15px 15px 100px #923c26;
   border-radius: 10px;
   animation-iteration-count: infinite;
 }
 
-.dentro:hover{
+.dentro:hover {
   background-color: #f09000;
-  
+
 }
 
-.h{
+.h {
   position: relative;
   width: 300px;
   height: 200px;
@@ -293,10 +320,55 @@ body {
   background-color: #003300;
 }
 
-.h:hover{
+.h:hover {
   background-color: #ffffff;
   box-shadow: 0px 0px 10px #0033cc;
   color: #000000;
   text-align: center;
   text-shadow: 0px 0px 14px rgb(0, 207, 79);
+}
+
+
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  /* Fondo oscuro con opacidad del 80% */
+  z-index: 9999;
+  /* Asegura que el div esté en la parte superior de todos los elementos */
+  animation: fadeOut 1s ease-in-out forwards;
+  /* Animación que desvanece el div */
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+
+
+.moneda-cont {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  background-color: darkslategray;
+  background-image: url(https://th.bing.com/th/id/R.dc5cf4137c13631f9ad2d3057a63712b?rik=hnl%2flwYkMSRI1g&pid=ImgRaw&r=0);
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  border-radius: 10%;
+  box-shadow: 0px 0px 20px rgb(255, 255, 255);
+  color: aliceblue;
+  float: left;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: 0px 0px 20px rgb(255, 255, 255);
 }
