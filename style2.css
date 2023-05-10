@@ -45,12 +45,13 @@
   border-radius: 5%;
   display: flex;
   box-shadow: 0px 0px 20px rgb(255, 255, 255);
+  background: linear-gradient(to bottom, #3366cc 0%, #003300 100%);
 }
 p {
   text-align: center;
   text-align: justify;
   padding: 5%;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 img {
@@ -60,10 +61,11 @@ img {
   margin-right: auto;
 }
 body {
-  background-image: url(https://c.wallhere.com/photos/ad/16/1920x1080_px_All_art_digital_forest_landscape_nature_pixel-1555193.jpg!d);
+ /* background-image: url(https://c.wallhere.com/photos/ad/16/1920x1080_px_All_art_digital_forest_landscape_nature_pixel-1555193.jpg!d);*/
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-color: #000;
 }
 
 @keyframes colors {
@@ -73,4 +75,228 @@ body {
   75%  {background-color: rgba(19, 99, 62, 0.500);; }
   100% {background-color: rgba(19, 99, 62, 0.250);}
 
+}
+
+/*.container {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: #000;
+}
+
+.neon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 100%;
+  background-color: #00ff00;
+  box-shadow: 0 0 20px #00ff00;
+  
+    animation: neon 2s ease-in-out infinite;
+  
+  
+}
+@keyframes neon {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(250px);
+  }
+}*/
+
+.container {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: #000;
+  border-radius: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.neon {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  z-index: -1;
+  background-color: #00ff00;
+  box-shadow:
+    0 0 10px #00ff00,
+    0 0 20px #00ff00,
+    0 0 30px #00ff00,
+    0 0 40px #00ff00,
+    0 0 70px #00ff00,
+    0 0 80px #00ff00,
+    0 0 100px #00ff00;
+  border-radius: 10px;
+  animation: neon 2s ease-in-out infinite;
+}
+
+@keyframes neon {
+  0% {
+    box-shadow:
+      0 0 10px #00ff00,
+       0 0 20px #00ff00,
+       0 0 30px #00ff00,
+       0 0 40px #00ff00,
+       0 0 70px #00ff00,
+       0 0 80px #00ff00,
+       0 0 100px #00ff00;
+  }
+  100% {
+    box-shadow:
+      0 0 20px #00f000,
+       0 0 30px #00ff00,
+       0 0 40px #00ff00,
+       0 0 70px #00ff00,
+       0 0 80px #00ff00,
+       0 0 100px #00ff00,
+       0 0 450px #00ff00;
+  }
+  50% {
+    box-shadow:
+      0 0 15px #00f000,
+       0 0 25px #00ff00,
+       0 0 35px #00ff00,
+       0 0 65px #00ff00,
+       0 0 75px #00ff00,
+       0 0 95px #00ff00,
+       0 0 400px #00ff00;
+  }
+}
+
+
+.contprueba {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: #000;
+  border-radius: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+.neonprueba {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background-color: #fdfdfd;
+  box-shadow: 
+  5px 5px 10px #ffd000,
+  10px 10px 20px #f09000,
+  15px 15px 100px #923c26;
+  border-radius: 10px;
+  animation: neon2 2s;
+  animation-iteration-count: infinite;
+
+}
+.neonprueba:hover{
+  box-shadow:  
+  5px 5px 10px #0066ff,
+  10px 10px 20px #0033cc,
+  15px 15px 100px #000080;
+  background-color: #000080;
+}
+
+@keyframes neon2{
+  0% {
+    box-shadow: 
+    5px 5px 20px #ffd000,
+    10px 10px 30px #f09000,
+    15px 15px 110px #923c26;
+    ;
+  }
+  25%{
+    box-shadow: 
+    5px 5px 30px #ffd000,
+    10px 10px 40px #f09000,
+    15px 15px 120px #923c26;
+    ;
+  }
+  50%{
+    box-shadow: 
+    5px 5px 40px #ffd000,
+    10px 10px 50px #f09000,
+    15px 15px 130px #923c26;
+    ;
+  }
+  75%{
+    box-shadow: 
+    5px 5px 30px #ffd000,
+    10px 10px 40px #f09000,
+    15px 15px 120px #923c26;
+    ;
+  }
+  100%{
+    box-shadow: 
+    5px 5px 20px #ffd000,
+    10px 10px 30px #f09000,
+    15px 15px 110px #923c26;
+    ;
+  }
+}
+
+.hoversha{
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border-radius: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  background-color: #0033cc;
+}
+
+.hoversha:hover{
+  background-color: #923c26;
+  animation: neon2 2s;
+  animation-iteration-count: infinite;
+}
+
+.dentro{
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background-color: #fdfdfd;
+  box-shadow: 
+  5px 5px 10px #ffd000,
+  10px 10px 20px #f09000,
+  15px 15px 100px #923c26;
+  border-radius: 10px;
+  animation-iteration-count: infinite;
+}
+
+.dentro:hover{
+  background-color: #f09000;
+  
+}
+
+.h{
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border-radius: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  background-color: #003300;
+}
+
+.h:hover{
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px #0033cc;
+  color: #000000;
+  text-align: center;
+  text-shadow: 0px 0px 14px rgb(0, 207, 79);
 }
