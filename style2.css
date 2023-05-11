@@ -68,6 +68,29 @@ body {
   background-color: #000;
   
 }
+@keyframes colors {
+  0% {
+    background-color: rgba(19, 99, 62, 0.250);
+  }
+
+  25% {
+    background-color: rgba(19, 99, 62, 0.500);
+  }
+
+  50% {
+    background-color: rgba(19, 99, 62, 0.750);
+  }
+
+  75% {
+    background-color: rgba(19, 99, 62, 0.500);
+    ;
+  }
+
+  100% {
+    background-color: rgba(19, 99, 62, 0.250);
+  }
+
+}
 
 
 
